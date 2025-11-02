@@ -1,0 +1,69 @@
+{% extends "base.html" %}
+
+{% block title %}Page Not Found - StreamFlix{% endblock %}
+
+{% block content %}
+<section class="error-section">
+    <div class="error-content">
+        <h1 class="error-code">404</h1>
+        <h2 class="error-title">Lost your way?</h2>
+        <p class="error-description">
+            Sorry, we can't find that page. You'll find lots to explore on the home page.
+        </p>
+        <a href="/" class="btn-home">StreamFlix Home</a>
+    </div>
+</section>
+
+<style>
+    .error-section {
+        min-height: 80vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 2rem;
+        background: linear-gradient(to bottom, rgba(0,0,0,0.8), rgba(0,0,0,0.95));
+    }
+
+    .error-content {
+        text-align: center;
+        max-width: 600px;
+    }
+
+    .error-code {
+        font-size: 8rem;
+        font-weight: 700;
+        color: #e50914;
+        margin: 0;
+        text-shadow: 0 0 20px rgba(229, 9, 20, 0.5);
+    }
+
+    .error-title {
+        font-size: 2.5rem;
+        margin: 1rem 0;
+        color: #fff;
+    }
+
+    .error-description {
+        font-size: 1.2rem;
+        color: #999;
+        margin: 1.5rem 0 2rem;
+        line-height: 1.6;
+    }
+
+    .btn-home {
+        display: inline-block;
+        padding: 1rem 2rem;
+        background: #fff;
+        color: #000;
+        text-decoration: none;
+        border-radius: 4px;
+        font-weight: 600;
+        transition: background 0.3s ease;
+    }
+
+    .btn-home:hover {
+        background: #e50914;
+        color: #fff;
+    }
+</style>
+{% endblock %}

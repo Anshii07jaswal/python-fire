@@ -1,0 +1,125 @@
+{% extends "base.html" %}
+
+{% block title %}StreamFlix - Watch Movies & TV Shows Online{% endblock %}
+
+{% block content %}
+<!-- Hero Section -->
+<section class="hero" id="hero">
+    <div class="hero-content">
+        <h1 class="hero-title">The Quantum Paradox</h1>
+        <p class="hero-description">
+            A brilliant physicist discovers a way to manipulate time, but each change creates 
+            devastating consequences across multiple realities. Watch as science fiction becomes 
+            reality in this mind-bending thriller.
+        </p>
+        <div class="hero-buttons">
+            <button class="btn-play">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                    <path d="M8 5v14l11-7z"/>
+                </svg>
+                Play
+            </button>
+            <button class="btn-info">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <circle cx="12" cy="12" r="10"></circle>
+                    <path d="M12 16v-4M12 8h.01"></path>
+                </svg>
+                More Info
+            </button>
+        </div>
+    </div>
+    <div class="hero-fade"></div>
+</section>
+
+<!-- Content Rows -->
+<section class="content-rows">
+    <!-- Trending Now -->
+    <div class="row" data-category="Trending">
+        <h2 class="row-title">Trending Now</h2>
+        <div class="row-container">
+            <button class="row-nav row-nav-left" data-direction="left">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                    <path d="M15.41 7.41L14 6l-6 6 6 6 1.41-1.41L10.83 12z"/>
+                </svg>
+            </button>
+            <div class="row-content">
+                <!-- Movies will be loaded here by JavaScript -->
+            </div>
+            <button class="row-nav row-nav-right" data-direction="right">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                    <path d="M10 6L8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z"/>
+                </svg>
+            </button>
+        </div>
+    </div>
+
+    <!-- Popular -->
+    <div class="row" data-category="Popular">
+        <h2 class="row-title">Popular on StreamFlix</h2>
+        <div class="row-container">
+            <button class="row-nav row-nav-left" data-direction="left">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                    <path d="M15.41 7.41L14 6l-6 6 6 6 1.41-1.41L10.83 12z"/>
+                </svg>
+            </button>
+            <div class="row-content">
+                <!-- Movies will be loaded here by JavaScript -->
+            </div>
+            <button class="row-nav row-nav-right" data-direction="right">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                    <path d="M10 6L8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z"/>
+                </svg>
+            </button>
+        </div>
+    </div>
+
+    <!-- New Releases -->
+    <div class="row" data-category="New Releases">
+        <h2 class="row-title">New Releases</h2>
+        <div class="row-container">
+            <button class="row-nav row-nav-left" data-direction="left">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                    <path d="M15.41 7.41L14 6l-6 6 6 6 1.41-1.41L10.83 12z"/>
+                </svg>
+            </button>
+            <div class="row-content">
+                <!-- Movies will be loaded here by JavaScript -->
+            </div>
+            <button class="row-nav row-nav-right" data-direction="right">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                    <path d="M10 6L8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z"/>
+                </svg>
+            </button>
+        </div>
+    </div>
+
+    <!-- Action -->
+    <div class="row" data-category="Action">
+        <h2 class="row-title">Action & Adventure</h2>
+        <div class="row-container">
+            <button class="row-nav row-nav-left" data-direction="left">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                    <path d="M15.41 7.41L14 6l-6 6 6 6 1.41-1.41L10.83 12z"/>
+                </svg>
+            </button>
+            <div class="row-content">
+                <!-- Movies will be loaded here by JavaScript -->
+            </div>
+            <button class="row-nav row-nav-right" data-direction="right">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                    <path d="M10 6L8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z"/>
+                </svg>
+            </button>
+        </div>
+    </div>
+</section>
+{% endblock %}
+
+{% block extra_js %}
+<script>
+    // Load movies for each category on page load
+    document.addEventListener('DOMContentLoaded', function() {
+        loadMoviesByCategory();
+    });
+</script>
+{% endblock %}

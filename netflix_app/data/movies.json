@@ -1,0 +1,166 @@
+{
+  "movies": [
+    {
+      "id": 1,
+      "title": "The Quantum Paradox",
+      "description": "A brilliant physicist discovers a way to manipulate time, but each change creates devastating consequences across multiple realities.",
+      "year": 2024,
+      "rating": "PG-13",
+      "duration": "2h 18m",
+      "categories": ["Trending", "Sci-Fi", "Thriller"],
+      "thumbnail": "https://images.unsplash.com/photo-1536440136628-849c177e76a1?w=400&h=600&fit=crop",
+      "featured": true,
+      "hero_image": "https://images.unsplash.com/photo-1536440136628-849c177e76a1?w=1920&h=1080&fit=crop"
+    },
+    {
+      "id": 2,
+      "title": "Midnight in Tokyo",
+      "description": "A noir detective story set in the neon-lit streets of Tokyo, where nothing is as it seems and everyone has secrets.",
+      "year": 2024,
+      "rating": "R",
+      "duration": "1h 56m",
+      "categories": ["Trending", "Drama", "Mystery"],
+      "thumbnail": "https://images.unsplash.com/photo-1542051841857-5f90071e7989?w=400&h=600&fit=crop"
+    },
+    {
+      "id": 3,
+      "title": "The Last Frontier",
+      "description": "In a post-apocalyptic world, a group of survivors must journey across dangerous terrain to find the last habitable zone on Earth.",
+      "year": 2024,
+      "rating": "PG-13",
+      "duration": "2h 32m",
+      "categories": ["Popular", "Action", "Adventure"],
+      "thumbnail": "https://images.unsplash.com/photo-1478720568477-152d9b164e26?w=400&h=600&fit=crop"
+    },
+    {
+      "id": 4,
+      "title": "Love in Paris",
+      "description": "Two strangers meet by chance in the City of Light and embark on a whirlwind romance that changes their lives forever.",
+      "year": 2024,
+      "rating": "PG",
+      "duration": "1h 42m",
+      "categories": ["Popular", "Romance", "Drama"],
+      "thumbnail": "https://images.unsplash.com/photo-1502602898657-3e91760cbb34?w=400&h=600&fit=crop"
+    },
+    {
+      "id": 5,
+      "title": "Code Red",
+      "description": "A cybersecurity expert races against time to stop a global hack that threatens to collapse the world's financial systems.",
+      "year": 2024,
+      "rating": "PG-13",
+      "duration": "2h 4m",
+      "categories": ["Trending", "Thriller", "Action"],
+      "thumbnail": "https://images.unsplash.com/photo-1550745165-9bc0b252726f?w=400&h=600&fit=crop"
+    },
+    {
+      "id": 6,
+      "title": "The Silent Forest",
+      "description": "A nature documentary exploring the hidden world of ancient forests and the creatures that call them home.",
+      "year": 2024,
+      "rating": "G",
+      "duration": "1h 28m",
+      "categories": ["New Releases", "Documentary", "Nature"],
+      "thumbnail": "https://images.unsplash.com/photo-1511497584788-876760111969?w=400&h=600&fit=crop"
+    },
+    {
+      "id": 7,
+      "title": "Galactic Wars: Rebellion",
+      "description": "The epic space saga continues as rebels fight against an oppressive empire across the galaxy.",
+      "year": 2024,
+      "rating": "PG-13",
+      "duration": "2h 45m",
+      "categories": ["Popular", "Sci-Fi", "Action"],
+      "thumbnail": "https://images.unsplash.com/photo-1534447677768-be436bb09401?w=400&h=600&fit=crop"
+    },
+    {
+      "id": 8,
+      "title": "The Chef's Table",
+      "description": "Follow the journey of a young chef as she pursues her dream of earning a Michelin star in the competitive culinary world.",
+      "year": 2024,
+      "rating": "PG",
+      "duration": "1h 52m",
+      "categories": ["New Releases", "Drama", "Food"],
+      "thumbnail": "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=400&h=600&fit=crop"
+    },
+    {
+      "id": 9,
+      "title": "Shadow Protocol",
+      "description": "An elite spy must go rogue to uncover a conspiracy that reaches the highest levels of government.",
+      "year": 2024,
+      "rating": "R",
+      "duration": "2h 12m",
+      "categories": ["Trending", "Action", "Thriller"],
+      "thumbnail": "https://images.unsplash.com/photo-1509347528160-9a9e33742cdb?w=400&h=600&fit=crop"
+    },
+    {
+      "id": 10,
+      "title": "Laugh Out Loud",
+      "description": "A hilarious comedy about a struggling comedian who gets one last chance to make it big in the entertainment industry.",
+      "year": 2024,
+      "rating": "PG-13",
+      "duration": "1h 38m",
+      "categories": ["Popular", "Comedy"],
+      "thumbnail": "https://images.unsplash.com/photo-1485846234645-a62644f84728?w=400&h=600&fit=crop"
+    },
+    {
+      "id": 11,
+      "title": "Ocean's Depth",
+      "description": "A deep-sea exploration team discovers an ancient civilization hidden beneath the ocean floor.",
+      "year": 2024,
+      "rating": "PG",
+      "duration": "2h 8m",
+      "categories": ["New Releases", "Adventure", "Mystery"],
+      "thumbnail": "https://images.unsplash.com/photo-1559827260-dc66d52bef19?w=400&h=600&fit=crop"
+    },
+    {
+      "id": 12,
+      "title": "The Haunting",
+      "description": "A family moves into a Victorian mansion, only to discover it's inhabited by spirits with unfinished business.",
+      "year": 2024,
+      "rating": "R",
+      "duration": "1h 48m",
+      "categories": ["Popular", "Horror", "Thriller"],
+      "thumbnail": "https://images.unsplash.com/photo-1512070679279-8988d32161be?w=400&h=600&fit=crop"
+    },
+    {
+      "id": 13,
+      "title": "Racing Legends",
+      "description": "The true story of a legendary Formula 1 driver's rise to fame and the rivalries that defined an era.",
+      "year": 2024,
+      "rating": "PG-13",
+      "duration": "2h 22m",
+      "categories": ["New Releases", "Drama", "Sports"],
+      "thumbnail": "https://images.unsplash.com/photo-1568605117036-5fe5e7bab0b7?w=400&h=600&fit=crop"
+    },
+    {
+      "id": 14,
+      "title": "Animated Adventures",
+      "description": "A colorful animated journey following a group of unlikely friends on a quest to save their magical kingdom.",
+      "year": 2024,
+      "rating": "G",
+      "duration": "1h 32m",
+      "categories": ["Popular", "Animation", "Family"],
+      "thumbnail": "https://images.unsplash.com/photo-1578632767115-351597cf2477?w=400&h=600&fit=crop"
+    },
+    {
+      "id": 15,
+      "title": "The Mountain",
+      "description": "A gripping survival story of climbers trapped on the world's most dangerous peak during a catastrophic storm.",
+      "year": 2024,
+      "rating": "PG-13",
+      "duration": "2h 6m",
+      "categories": ["Trending", "Adventure", "Drama"],
+      "thumbnail": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=400&h=600&fit=crop"
+    },
+    {
+      "id": 16,
+      "title": "Digital Dreams",
+      "description": "In a future where people can share dreams, a detective investigates crimes that occur in the dream world.",
+      "year": 2024,
+      "rating": "R",
+      "duration": "2h 18m",
+      "categories": ["New Releases", "Sci-Fi", "Mystery"],
+      "thumbnail": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=400&h=600&fit=crop"
+    }
+  ]
+}
